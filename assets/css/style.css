@@ -420,6 +420,10 @@ h6 {
   bottom: 0;
 }
 
+.container{
+  width: 95%;
+}
+
 #hero .carousel-container {
   display: flex;
   align-items: flex-end;
@@ -998,14 +1002,16 @@ section {
 .about-us .image {
   /* background: url("../img/about.jpg") center center no-repeat; homepage/aboutus image changed*/
   background: url("../img/hompage-aboutus/about_4.png") center center no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
+  background-size: contain;
   min-height: 400px;
 }
 
 .about-us .image1 {
   /* background: url("../img/about.jpg") center center no-repeat; homepage/aboutus image changed*/
   background: url("../img/hompage-aboutus/about_5.jpg") center center no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
+  background-size: contain;
   min-height: 400px;
 }
 
